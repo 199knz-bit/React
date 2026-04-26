@@ -1,3 +1,18 @@
+First day.
+-Tried to do the register and login page.
+-Ended up doing only the register. 
+-Also did some routing.
+-Need to add context so i can use the accounts in both login and register pages.
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
