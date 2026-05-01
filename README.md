@@ -1,8 +1,13 @@
-First day.
--Tried to do the register and login page.
--Ended up doing only the register. 
--Also did some routing.
--Need to add context so i can use the accounts in both login and register pages.
+server command: npx json-server database.json
+react app command: npm run dev
+
+
+--Day 2 
+- The Rest API is done. json server is up. finally.
+
+
+
+
 
 
 
