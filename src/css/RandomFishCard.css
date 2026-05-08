@@ -1,0 +1,40 @@
+a{
+    max-width: 450px;
+}
+
+.randomFish{
+    padding:0;
+    margin:0;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0px;
+    margin: 0 75px; 
+}
+
+ .fishCard{
+    display:flex;
+    flex-direction:column;
+    background-color: white;
+    color:#00121C;
+    width:450px;
+    max-width: 450px;
+    height:550px;
+}
+
+  .fishCard:hover{
+    background-color: #001C2B;
+    color:white;
+    transition:400ms;
+    cursor: pointer;
+}
+
+@media (max-width:1200px){
+
+    .randomFish{
+        grid-template-columns: 1fr;
+        gap:15px;
+        margin: 0 20%;
+
+    }
+}

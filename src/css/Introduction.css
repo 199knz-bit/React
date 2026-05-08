@@ -1,0 +1,12 @@
+.Introduction{
+    width:900px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width:1200px){
+    .Introduction{
+        width:70%
+    }
+}
