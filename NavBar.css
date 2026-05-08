@@ -1,0 +1,39 @@
+ a{
+    text-decoration: none;
+}
+p{
+    margin: 0 auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+ul li{
+    float: left;
+}
+.loginBtn{
+    margin-left:auto;
+}
+
+ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #003856;
+}
+
+hr{
+    width:100%;
+    padding:0%;
+    margin:0%;
+    margin-bottom: 15px;
+}

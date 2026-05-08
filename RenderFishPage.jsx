@@ -1,31 +1,16 @@
-import {useEffect, useState} from 'react'
-function RenderFishPage() {
-    const [fishes, setFishes] = useState([])
-    
-    useEffect(() =>{
-        const fetchFish = async() => {
-        const data = await fetch ('http://localhost:3000/fish') 
-        const jsonData = await data.json()
-        setFishes(jsonData)
-        }
-        fetchFish();
-    }, []);
-
-     function FishList(fish) {
-        return(
-            <div className="fishCard">
-                    <img className="fishImage" src={fish.image} alt={fish.name} />
-                    <h2 className="fishTitle">{fish.id}.{fish.name}</h2>
-                    <p className="fishText">{fish.description}</p>
-            </div>
-
-        )
+import { useFishContext } from '../contexts/FishContext';
+import FishCard from './FishCard'; 
+import '../css/RenderFishPage.css'
+export default function RenderFishPage() {
+const fishes=useFishContext()
+    if(fishes.length===0){
+        return <div>Loading...</div>
     }
     return (
         <div className ="fishList">
-        {fishes.map(FishList)}
+        {fishes.map(FishCard)}
         </div>
     )
- }
+}
 
-export default RenderFishPage
+

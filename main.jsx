@@ -1,12 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import './css_files/index.css'
+import './css/index.css'
 import MainPage from './site_contents/mainPage.jsx'
 import Register from './login_form/register.jsx'
 import Login from './login_form/login.jsx'
 import About from './site_contents/about.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import More from './site_contents/more.jsx'
+import { FishProvider } from './contexts/FishContext.jsx'
+import { AuthProvider } from './contexts/AuthContext.jsx'
 
 const router = createBrowserRouter([
   {
@@ -22,13 +25,21 @@ const router = createBrowserRouter([
     element:<Login />
   },
   {
-    path: '/about',
-    element:<About />
+    path: '/more',
+    element:<More />
+  },
+  {
+    path:'/about/:fishId',
+    element:<About/>
   }
 ])
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <FishProvider>
+      <AuthProvider>
+        <RouterProvider router={router} />
+      </AuthProvider>
+    </FishProvider>
   </StrictMode>,
 )

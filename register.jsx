@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 import {createSearchParams, Link, useNavigate} from "react-router-dom";
-import './login.css'
+import '../css/login.css'
 
 export default function Register() {
     const [email, setEmail] = useState('')
@@ -29,7 +29,7 @@ export default function Register() {
         }) 
         const resultInJson = await result.json()
         setAccounts(prev=>[...prev, resultInJson])
-        navigate ('/')
+        navigate ('/login')
     }
 
 

@@ -13,65 +13,76 @@
   ],
   "fish": [
     {
-      "id": "1",
+      "id": 0,
       "name": "Rabbit Fish",
       "image": "/images/rabbit fish.jpg",
-      "description": "The rabbit fish (Chimaera monstrosa), also known as the rat fish, is related to sharks and rays. It is found in the northeastern Atlantic Ocean and western Mediterranean Sea. Rabbit fish are poor swimmers, moving sluggishly through the water and using only their pectoral fins at depths down to 1,660 m.  Their long, tapering tails do not help them swim. The rabbit fish can raise the venomous spine on the back of its head to deter predators and inflict a painful wound. Adult rabbit fish can measure up to  1.5 m long including the tail, which can account for up to 60% of their length. Rabbit fish feed on crustaceans and mollusks, whose shells they can crush with their teeth that are fused into hard plates."
+      "description": "The rabbit fish (Chimaera monstrosa), also known as the rat fish, is related to sharks and rays. It is found in the northeastern Atlantic Ocean and western Mediterranean Sea. Rabbit fish are poor swimmers, moving sluggishly through the water and using only their pectoral fins at depths down to 1,660 m.  Their long, tapering tails do not help them swim. The rabbit fish can raise the venomous spine on the back of its head to deter predators and inflict a painful wound. Adult rabbit fish can measure up to  1.5 m long including the tail, which can account for up to 60% of their length. Rabbit fish feed on crustaceans and mollusks, whose shells they can crush with their teeth that are fused into hard plates.",
+      "short_description": "The rabbit fish also known as the rat fish is found in the northeastern Atlantic Ocean and western Mediterranean Sea."
     },
     {
-      "id": "2",
+      "id": 1,
       "name": "Barreleye Fish",
       "image": "/images/barreleye.jpg",
-      "description": "The barreleye fish (Macropinna microstoma) is found in the Bering Sea and North Pacific Ocean at depths between  600 to 800 m. It has a see-through forehead and tubular eyes that it can rotate, enabling it to gaze upward to detect prey or predators. Its eyes contain a yellow pigment that helps the barreleye fish distinguish between bioluminescence and sunlight filtering through the water from above. Barreleyes stay motionless in the dark until they detect a potential meal passing overhead; then, they dart upward to catch it in their mouth and pivot their eyes back to their forward-looking position."
+      "description": "The barreleye fish (Macropinna microstoma) is found in the Bering Sea and North Pacific Ocean at depths between  600 to 800 m. It has a see-through forehead and tubular eyes that it can rotate, enabling it to gaze upward to detect prey or predators. Its eyes contain a yellow pigment that helps the barreleye fish distinguish between bioluminescence and sunlight filtering through the water from above. Barreleyes stay motionless in the dark until they detect a potential meal passing overhead; then, they dart upward to catch it in their mouth and pivot their eyes back to their forward-looking position.",
+      "short_description":"This peculiar fish is known for its unique eyes - two bright green upward-pointing orbs visible through the transparent dome on its forehead."
     },
     {
-      "id": "3",
+      "id": 2,
       "name": "Brier Shark",
       "image": "/images/brier shark.jpg",
-      "description": "The Brier shark (Deania calcea), also called the birdbeak dogfish, is a shark that's usually found between depths of 600 to 1,000 m, according to the Fishes of Australia database. Brier sharks are widely distributed off of Australia's southern coast, across the eastern and western Pacific Ocean, and in the eastern Atlantic Ocean. This shark has a long nose and a grayish-brown body, and it grows up to 1.2 m long. Brier sharks are thought to reach a maximum age of 35 years. They are mostly caught accidentally as bycatch, although some fisheries target the sharks for their flesh and liver oil, according to the Australian government's Shark Report."
+      "description": "The Brier shark (Deania calcea), also called the birdbeak dogfish, is a shark that's usually found between depths of 600 to 1,000 m, according to the Fishes of Australia database. Brier sharks are widely distributed off of Australia's southern coast, across the eastern and western Pacific Ocean, and in the eastern Atlantic Ocean. This shark has a long nose and a grayish-brown body, and it grows up to 1.2 m long. Brier sharks are thought to reach a maximum age of 35 years. They are mostly caught accidentally as bycatch, although some fisheries target the sharks for their flesh and liver oil, according to the Australian government's Shark Report.",
+      "short_description": "The Brier Shark is one of the more abundant mid-slope species of deepwater dogfish. It is widespread but patchily distributed across the eastern and western Pacific, and eastern Atlantic."
     },
     {
-      "id": "4",
+      "id": 3,
       "name": "Frilled Shark",
       "image": "/images/frilled shark.jpg",
-      "description": "The frilled shark (Chlamydoselachus anguineus) gets its name from the frilly appearance of its gill slits. This deep-sea shark has an elongated, eel-like body that grows up to 2 m long, as well as a large, flattened head. It is found worldwide and swims by undulating its body like a snake. The frilled shark is an active predator with several rows of needle-sharp, three-pointed teeth, which it uses to rip up its favorite meal of squid, as well as fish and other sharks. Researchers rarely encounter frilled sharks, prompting them to think the species is distributed in patches of the deep ocean."
+      "description": "The frilled shark (Chlamydoselachus anguineus) gets its name from the frilly appearance of its gill slits. This deep-sea shark has an elongated, eel-like body that grows up to 2 m long, as well as a large, flattened head. It is found worldwide and swims by undulating its body like a snake. The frilled shark is an active predator with several rows of needle-sharp, three-pointed teeth, which it uses to rip up its favorite meal of squid, as well as fish and other sharks. Researchers rarely encounter frilled sharks, prompting them to think the species is distributed in patches of the deep ocean.",
+      "short_description": "The frilled shark is considered a living fossil, because of its primitive, anguilliform (eel-like) physical traits, such as a dark-brown color, amphistyly (the articulation of the jaws to the cranium), and a 2.0 m – long body, which has dorsal, pelvic, and anal fins located towards the tail."
     },
     {
-      "id": "5",
+      "id": 4,
       "name": "Greenland Shark",
       "image": "/images/greenland shark.jpg",
-      "description": "The greenland shark (Somniosus microcephalus) is an extremely long-lived shark species that inhabits North Atlantic and Arctic waters down to depths of about 1,200 m. Researchers estimate that Greenland sharks live at least 250 years and possibly more than 500 years, which makes them the longest-lived vertebrates known to science. They can grow up to 7.3 m long. Greenland sharks are slow swimmers, so it's likely that they ambush their prey or scavenge for carrion. People in northern regions hunt these sharks for their meat and skin, which can be used to make leather. The flesh is poisonous when eaten raw, but it becomes edible when it is dried."
+      "description": "The greenland shark (Somniosus microcephalus) is an extremely long-lived shark species that inhabits North Atlantic and Arctic waters down to depths of about 1,200 m. Researchers estimate that Greenland sharks live at least 250 years and possibly more than 500 years, which makes them the longest-lived vertebrates known to science. They can grow up to 7.3 m long. Greenland sharks are slow swimmers, so it's likely that they ambush their prey or scavenge for carrion. People in northern regions hunt these sharks for their meat and skin, which can be used to make leather. The flesh is poisonous when eaten raw, but it becomes edible when it is dried.",
+      "short_description":"Greenland sharks have the longest lifespan of any known vertebrate, estimated to be between 272 and 512 years. They are among the largest extant shark species, reaching a maximum confirmed length of 6.4 m and weighing more than 1,000 kg."
     },
     {
-      "id": "6",
+      "id": 5,
       "name": "Deep-Sea Lizardfish",
       "image": "/images/deep-sea lizardfish.jpg",
-      "description": "It lives between 600 to 3,500 m deep, grows to around 25 inches (64 cm) long, and has sensitive eyes to detect bioluminescence from other creatures. The deep-sea lizardfish is also hermaphroditic, meaning it has both male and female reproductive organs and, therefore, can mate with both males and females. Scientists think this is an adaptation to the patchy distribution of these fish in oceans worldwide."
+      "description": "It lives between 600 to 3,500 m deep, grows to around 25 inches (64 cm) long, and has sensitive eyes to detect bioluminescence from other creatures. The deep-sea lizardfish is also hermaphroditic, meaning it has both male and female reproductive organs and, therefore, can mate with both males and females. Scientists think this is an adaptation to the patchy distribution of these fish in oceans worldwide.",
+      "short_description":"The deep-sea lizardfish’s most distinctive feature is its searing teeth. They are apex predators, meaning they are at the top of the ecosystem food chain. In fact, deep-sea lizardfish are one of the deepest-known top predators, and will eat pretty much anything it comes across."
     },
     {
-      "id": "7",
+      "id": 6,
       "name": "Dragonfish",
       "image": "/images/dragonfish.jpg",
-      "description": "Dragonfish (Stomiidae) are a family of otherworldly creatures that live in the twilight and midnight zones of the ocean down to depths of 4,500 m. Females grow to around 50 cm long, while males reach between 5 to 15 cm, depending on the species. Both males and females have gaping jaws, but only females have fangs — long, translucent teeth that are embedded with nanocrystals and give female dragonfish a stronger bite than sharks'. Females also have a luminous barbel that hangs from their chin and attracts prey. Both males and females are covered in light-producing organs called photophores, which the dragonfish use to signal to each other."
+      "description": "Dragonfish (Stomiidae) are a family of otherworldly creatures that live in the twilight and midnight zones of the ocean down to depths of 4,500 m. Females grow to around 50 cm long, while males reach between 5 to 15 cm, depending on the species. Both males and females have gaping jaws, but only females have fangs — long, translucent teeth that are embedded with nanocrystals and give female dragonfish a stronger bite than sharks'. Females also have a luminous barbel that hangs from their chin and attracts prey. Both males and females are covered in light-producing organs called photophores, which the dragonfish use to signal to each other.",
+      "short_description":"These fish are apex predators and have enormous jaws filled with fang-like teeth; their specially adapted neurocranium and upper-jaw system allows them to open their jaws to more than 100 degrees."
     },
     {
-      "id": "8",
+      "id": 7,
       "name": "Giant Sea Spider",
       "image": "/images/giant sea spider.jpg",
-      "description": "Giant sea spiders (Colossendeis) have spindly legs that can stretch wider than a dinner plate. They live on the Arctic and Antarctic ocean floor down to depths of 4,000 m, where they lumber along in search of food and mates. Like other sea spiders, they share a common ancestor with spiders and crabs but have been evolving as a separate group for hundreds of millions of years. Giant sea spiders house their vital organs, including their breathing apparatus, in their stilt-like legs. Instead of spinning a web as terrestrial spiders do, they use a long, tubelike mouthpart to slurp up prey, including anemones, worms, jellies and sponges."
+      "description": "Giant sea spiders (Colossendeis) have spindly legs that can stretch wider than a dinner plate. They live on the Arctic and Antarctic ocean floor down to depths of 4,000 m, where they lumber along in search of food and mates. Like other sea spiders, they share a common ancestor with spiders and crabs but have been evolving as a separate group for hundreds of millions of years. Giant sea spiders house their vital organs, including their breathing apparatus, in their stilt-like legs. Instead of spinning a web as terrestrial spiders do, they use a long, tubelike mouthpart to slurp up prey, including anemones, worms, jellies and sponges.",
+      "short_description": "Giant sea spiders are an unsettlingly common sight below the antarctic ice. With a leg-span of 70 cm, they’re the largest of their kind and one of the most extreme instances of abbysal gigantism. Its proboscis is used to suck the life out of its prey"
     },
     {
-      "id": "9",
+      "id": 8,
       "name": "Bigfin Squid",
       "image": "/images/bigfin squid.jpg",
-      "description": "Bigfin squid (Magnapinna) are a genus of rarely seen squid that can grow up to 6 m long — mostly thanks to their trailing arms and tentacles, which can extend 20 times longer than the squid's body (also known as the mantle) and have distinctive elbow-like bends, according to the National Oceanic and Atmospheric Administration (NOAA). As the name suggests, bigfin squid have large fins protruding from their mantle. They are the deepest-dwelling squid known to science, gliding down to depths of more than 6,000 m, according to the Ocean Conservancy. It's unclear why bigfin squid have such long arms and tentacles, but scientists think the appendages are covered in microscopic suckers that can trap prey as the squid swim. Only a dozen or so sightings of bigfin squid have been recorded, with three species documented across the world's oceans so far."
+      "description": "Bigfin squid (Magnapinna) are a genus of rarely seen squid that can grow up to 6 m long — mostly thanks to their trailing arms and tentacles, which can extend 20 times longer than the squid's body (also known as the mantle) and have distinctive elbow-like bends, according to the National Oceanic and Atmospheric Administration (NOAA). As the name suggests, bigfin squid have large fins protruding from their mantle. They are the deepest-dwelling squid known to science, gliding down to depths of more than 6,000 m, according to the Ocean Conservancy. It's unclear why bigfin squid have such long arms and tentacles, but scientists think the appendages are covered in microscopic suckers that can trap prey as the squid swim. Only a dozen or so sightings of bigfin squid have been recorded, with three species documented across the world's oceans so far.",
+      "short_description":"The arms and tentacles of the squid are both extremely long, estimated at 4 to 8 m. These appendages are held perpendicular to the body, creating 'elbows'. How the squid feeds is yet to be discovered."
     },
     {
-      "id": "10",
+      "id": 9,
       "name": "Snailfish",
       "image": "/images/snailfish.jpg",
-      "description": "Snailfish are a family of tadpole-shaped fish that grow to around 30 cm long. They are found mostly in cold waters, with some species living in the Arctic and Antarctic. The deepest-dwelling fish on record is a snailfish in the genus Pseudoliparis (the species is unknown) that was filmed 8,336 m below the ocean surface in the Izu-Ogasawara Trench near Japan in 2023. The previous deepest fish observation was also of a snailfish, but it was farther south in the Pacific, in the Mariana Trench. A snailfish can survive abyssal ocean depths because it has a gelatinous body and lacks a swim bladder — an air-filled organ that helps other fish control their buoyancy. Its body also contains a fluid called osmolyte, which helps protect its tissues and cells from the crushing pressure."
+      "description": "Snailfish are a family of tadpole-shaped fish that grow to around 30 cm long. They are found mostly in cold waters, with some species living in the Arctic and Antarctic. The deepest-dwelling fish on record is a snailfish in the genus Pseudoliparis (the species is unknown) that was filmed 8,336 m below the ocean surface in the Izu-Ogasawara Trench near Japan in 2023. The previous deepest fish observation was also of a snailfish, but it was farther south in the Pacific, in the Mariana Trench. A snailfish can survive abyssal ocean depths because it has a gelatinous body and lacks a swim bladder — an air-filled organ that helps other fish control their buoyancy. Its body also contains a fluid called osmolyte, which helps protect its tissues and cells from the crushing pressure.",
+      "short_description": "Snailfish are found at depths ranging from shallow coastal waters to more than 8,300 m, including in seven ocean trenches"
     }
+
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }

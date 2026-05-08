@@ -1,14 +1,21 @@
-import './App.css'
-import {createSearchParams, Link} from "react-router-dom";
-import NavigationMenu from '../components/NavigationMenu';
+import React from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
+import '../css/About.css'
 
+function About() {
 
-export default function About(){
-    return(
-        <>
-        <h1>About</h1>
-        <NavigationMenu />
-        <p>These things are weird man</p>
-        </>
-    )
+  const location=useLocation();
+  const navigate = useNavigate();
+  const fish = location.state.fish
+
+  return (
+    <div className="moreFishCard">
+            <img className="moreFishImage" src={fish.image} alt={fish.name} />
+            <h1 className="moreFishTitle">{fish.name}</h1>
+            <p className="moreFishText">{fish.description}</p>
+            <button onClick={()=>navigate(-1)}>← Back</button>
+    </div>
+  )
 }
+
+export default About

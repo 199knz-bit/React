@@ -1,12 +1,14 @@
 import { useState, useEffect} from "react";
 import {createSearchParams, Link, useNavigate } from "react-router-dom";
-import './login.css'
+import { useAuthContext, AuthProvider } from "../contexts/AuthContext";
+import '../css/login.css'
 
 export default function Login(){
- const [email, setEmail] =  useState("")
- const [password, setPassword] = useState("")
- const [accounts, setAccounts] = useState([])
- const navigate = useNavigate()
+    const [email, setEmail] =  useState("")
+    const [password, setPassword] = useState("")
+    const [accounts, setAccounts] = useState([])
+    const navigate = useNavigate()
+    const { login } = useAuthContext()
 
     useEffect(() =>{
         const fetchAccounts = async() => {
@@ -15,13 +17,14 @@ export default function Login(){
             setAccounts(jsonData)
         }
         fetchAccounts();
-     })
+     },[])
 
     function LoginAttempt(e) {
         e.preventDefault()
 
     const foundAccount = accounts.find(account => account.email===email && account.password===password)
     if (foundAccount){
+        login(foundAccount)
         navigate ('/')
     }
     else{
@@ -54,6 +57,7 @@ return(
         </Link>
     </form>
     <ListAccounts/>
+
 </>
 )
 

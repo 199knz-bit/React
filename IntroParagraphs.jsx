@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/Introduction.css'
 
 function IntroParagraphs() {
   return (
